@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+.youtubeVids{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 1px solid green;
+}
+
+#youtubeMaxResults{
+  width: 90%;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  border: none;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+.wikipediaContainer{
+  margin-top: 70px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center-me {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+.h1 {
+  font-size: 30px;
+}
+
+.header {
+  text-align: center;
+  /* text-shadow: .6px .6px 1.5px aqua; */
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card1 {
+  float: left;
+  border: none;
+  margin-left:25%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.card2 {
+  float: right;
+  border: none;
+  margin-right: 25%;
+  padding: 0;
+}
+
+
+.card {
+  text-align: center;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+}
+
+.sign-in {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.bar {
+  background-color: black;
+}
+
+.title {
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+.background {
+  background-color: #b8b8ff;
+}
+
+/* Search bar styling */
+
+p {
+  color:#fff;
+  font-size: 30px;
+  text-shadow: .5px .5px 1.5px white;
+  text-align: center;
+  margin-top: 9rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.tb
+{
+    display: table;
+    width: 100%;
+}
+
+.td
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input, button
+{
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+#cover
+{
+    display: block;
+    width: 90%;
+    padding: 35px;
+    margin: -83px auto 0 auto;
+    background-color: #0479cc;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #b5dffd, 0 0 0 20px #ffffffeb;
+    transform: scale(0.6);
+}
+
+form
+{
+    height: 96px;
+}
+
+input[type="text"]
+{
+    width: 100%;
+    height: 96px;
+    font-size: 60px;
+    line-height: 1;
+}
+
+input[type="text"]::placeholder
+{
+    color: #fff;
+}
+
+#s-cover
+{
+    width: 1px;
+    padding-left: 35px;
+}
+
+button
+{
+    position: relative;
+    display: block;
+    width: 84px;
+    height: 96px;
+    cursor: pointer;
+}
+
+#s-circle
+{
+    position: relative;
+    top: -8px;
+    left: 0;
+    width: 43px;
+    height: 43px;
+    margin-top: 0;
+    border-width: 15px;
+    border: 15px solid #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: 0.5s ease all;
+}
+
+button span
+{
+    position: absolute;
+    top: 68px;
+    left: 43px;
+    display: block;
+    width: 45px;
+    height: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    transform: rotateZ(52deg);
+    transition: 0.5s ease all;
+}
+
+button span:before, button span:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: rotateZ(0);
+    transition: 0.5s ease all;
+}
+
+#s-cover:hover #s-circle
+{
+    top: -1px;
+    width: 67px;
+    height: 15px;
+    border-width: 0;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#s-cover:hover span
+{
+    top: 50%;
+    left: 56px;
+    width: 25px;
+    margin-top: -9px;
+    transform: rotateZ(0);
+}
+
+#s-cover:hover button span:before
+{
+    bottom: 11px;
+    transform: rotateZ(52deg);
+}
+
+#s-cover:hover button span:after
+{
+    bottom: -11px;
+    transform: rotateZ(-52deg);
+}
+#s-cover:hover button span:before, #s-cover:hover button span:after
+{
+    right: -6px;
+    width: 40px;
+    background-color: #fff;
+}
+
+
